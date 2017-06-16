@@ -1,2 +1,0 @@
-# kgooble.github.io
-blog
