@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Molot";
+  src: url("fonts/Molot.otf");
+}
+
+.parallax {
+  background-image: url("../img/background.png");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+}
+
+@media (min-width: 992px) {
+  .parallax {
+      background-position: 0 23%;
+  }
+}
+
+.header-row {
+  height: 12.2rem;
+}
+
+.phone-container {
+  position: relative;
+}
+
+.phone-image {
+  position: relative;
+  width: 255px;
+  height: 516px;
+  object-fit: cover;
+}
+
+.phone-screenshot {
+  position: absolute;
+  width: 223px;
+  height: 392px;
+  object-fit: cover;
+  top: 3rem;
+  left: 1rem;
+}
+
+.screenshot-sm {
+  width: 267px;
+  height: 468px;
+}
+
+.description-box {
+  padding: 2rem;
+  color: white;
+  border: 0px solid rgba(65, 65, 65, 1);
+  background-color: rgba(54, 8, 54, 0.65);
+  border-radius: 0 30px 0 30px;
+}
+
+.header-text {
+  font-family: "Molot", arial;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+  letter-spacing: 2px;
+}
+
+
