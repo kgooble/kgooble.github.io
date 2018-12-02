@@ -54,6 +54,19 @@
   height: 468px;
 }
 
+.logo {
+  width: 175px;
+  height: 250px;
+  border: 2px solid rgba(65, 65, 65, 1);
+  background-color: #f8f9fa;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.feature-graphic {
+  width: 600px;
+  height: 300px;
+}
+
 .description-box {
   padding: 2rem;
   color: white;
