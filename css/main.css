@@ -69,4 +69,23 @@
   letter-spacing: 2px;
 }
 
+.custom-nav a {
+  font-family: "Molot", arial;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+  font-size: 2rem;
+}
 
+.custom-nav .active {
+  font-family: "Molot", arial;
+  color: #ff5aac;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+  font-size: 2rem;
+}
+
+.custom-nav a:hover {
+  font-family: "Molot", arial;
+  color: #eb3587;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+  font-size: 2rem;
+}
