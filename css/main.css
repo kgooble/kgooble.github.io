@@ -83,6 +83,15 @@
   letter-spacing: 2px;
 }
 
+a {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: pink;
+}
+
 .custom-nav a {
   font-family: "Molot", arial;
   color: white;
